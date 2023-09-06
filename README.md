@@ -2,9 +2,6 @@
 A Discord container image based on Arch Linux
 
 ## Runing it
-Unfortunately currently Discord requires X11.
-Currently this image only supports running as a user with UID 1000.
-Currently the sound is not working.
 
 ```bash
 xhost +local:* # allow unauthenticated connections via the unix socket.
@@ -17,3 +14,8 @@ podman run --rm \
   --pull always \
   ghcr.io/victor-timofei/discord-arch:latest
 ```
+
+## Limitations
+- Unfortunately currently Discord requires X11.
+- Currently this image only supports running as a user with UID 1000.
+- Currently the sound is not working.
