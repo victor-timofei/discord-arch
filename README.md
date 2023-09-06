@@ -6,6 +6,8 @@ A Discord container image based on Arch Linux
 Discord is notorious for its telemetry collection. Running the application in
 a container can help minimize the data it collects from you.
 
+But why not, AppImages or Flatpacks? Because I already know Docker-style containers and I already have that installed.
+
 ## Running it
 
 ```bash
